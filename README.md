@@ -34,13 +34,13 @@ In this scenario, you will be doing just that. Creating an S3 bucket, uploading 
 
 6. By default S3 will understandably block all public access by default but we need the public to be able to access the objects (HTML files and CSS) so you should untick **Block all public access**
 
-7. Once you bucket has been made, go into the bucket and **Upload** the index.html and the styles.css file from this repository. Feel free to edit the styles and HTML before uploading if you like 👩‍💻
+7. Once your bucket has been made, go into the bucket and **Upload** the index.html and the styles.css files from this repository. Feel free to edit the styles and HTML before uploading if you like 😃
 
 8. Once the files have been uploaded, go back to the bucket and click the **Properties** tab
 
 9. Navigate to **Static website hosting** and **Enable** it. Configure it to look for the **index.html** document by default. Once enabled it will give you the URL of the bucket. For example: http://some-s3-bucket-name-website.s3-website.eu-west-2.amazonaws.com - try clicking the link, did it work or did you get a `403 Forbidden Error` ?
 
-10. Even though you have configured public access we still have another step to open up the bucket. This is where we encounter another aspect of AWS called policies. We can configure access (or prevent access) via policy documents that are in the [form of JSON](https://www.json.org/json-en.html). Go back into the bucket and choose the **Permissions** tab then edit the **Bucket Policy**. Put in place a policy that enables public access. You can get the [sample JSON for the policy](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html#step4-add-bucket-policy-make-content-public) from the AWS guide. 🗒️ Don't forget to edit the bucket name in the sample policy
+10. Even though you have configured public access, we still have another step to open up the bucket. This is where we encounter another aspect of AWS called policies. We can configure access (or prevent access) via policy documents that are in the [form of JSON](https://www.json.org/json-en.html). Go back into the bucket and choose the **Permissions** tab then edit the **Bucket Policy**. Put in place a policy that enables public access. You can get the [sample JSON for the policy](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html#step4-add-bucket-policy-make-content-public) from the AWS guide. 🗒️ Don't forget to edit the bucket name in the sample policy
 
 11. Re-try the link for your website. Can you see it now?
 
@@ -50,7 +50,7 @@ In this scenario, you will be doing just that. Creating an S3 bucket, uploading 
 
 14. Empty and delete your bucket once you are finished
 
-15. 🎉 Celebrate - you now know how to create your own website on AWS. 
+15. 🎉 Celebrate - you now know how to create your own website on AWS
 
 ## Further reading
 
