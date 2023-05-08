@@ -16,8 +16,15 @@ In this scenario, you will be doing just that. Creating an S3 bucket, uploading 
 
 - An AWS account that you can access via the AWS web console
 - Knowledge of your username and password for your AWS account
+- Familiar with Git in order to clone this repository to your computer
 
 ## Instructions
 
-🗒️ Note: The instructions below are not exhaustive on all the required steps. They provide the sense of direction but leave gaps that will require you to research, understand and ask questions around. You will find this throughout the programme where instructions will leave room for your to research things and build up your understanding so when following through any exercises like this try to focus on the journey of learning and almost forget the getting it done aspect.
+🗒️ Note: The instructions below are not exhaustive on all the required steps. They provide the sense of direction but leave gaps that will require you to research, understand and ask questions around. You will find this throughout the programme where instructions will leave room for your to research things and build up your understanding so when following through any exercises like this try to focus on the journey of learning and almost forget the getting it done aspect. If you get stuck at any stage, the links in the **Further reading** section are there to provide further help whilst also aid you in developing further skills in reading documentation.
+
+## Further reading
+
+[AWS Tutorial on Configuring a static website on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
+
+
 
