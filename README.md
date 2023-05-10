@@ -52,6 +52,18 @@ In this scenario, you will be doing just that. Creating an S3 bucket, uploading 
 
 15. 🎉 Celebrate - you now know how to create your own website on AWS
 
+## Extension exercise
+
+You'll have noticed that the Uniform Resource Locator (URL) for your website isn't very memorable. It is a little long.
+
+Try to put together written answers for the questions below.
+
+Which AWS service might you use to create your own domain name? Something more memorable and shorter
+
+When using that service what will you need to configure in order to "point" it at your S3 bucket website?
+
+💡 Hint: If you need a hint, have a research around DNS services within AWS
+
 ## Further reading
 
 [AWS Tutorial on Configuring a static website on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
