@@ -2,4 +2,13 @@
 
 html {
     font-family: 'Mark Pro', sans-serif;
+    color: linen;
+    text-align: center
+}
+
+body {
+    background: radial-gradient(
+    rgb(30, 40, 50),
+    rgb(10, 20, 30)
+  ); 
 }
